@@ -1,0 +1,58 @@
+/* <!-- Got major help from Florin Pop Youtube content creator from: https://www.youtube.com/watch?v=5rz6XbrCqt0&ab_channel=FlorinPop
+  major credit goes to them for helping me understand how to build this project --> */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #50ffff;
+    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+ button{
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.actions-wrapper span {
+  font-size: 40px;
+  margin 0 10px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 60px;
+  margin-top:  20px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
